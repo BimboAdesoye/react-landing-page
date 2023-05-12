@@ -1,3 +1,5 @@
+import "../styles/Questions.css";
+
 const Questions = () => {
   return (
     <div className="box block questions text-center">
@@ -12,7 +14,7 @@ const Questions = () => {
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed acc-btn"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne"
@@ -37,7 +39,7 @@ const Questions = () => {
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed acc-btn"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseTwo"
@@ -63,7 +65,7 @@ const Questions = () => {
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed acc-btn"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseThree"
@@ -91,7 +93,7 @@ const Questions = () => {
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed acc-btn"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseThree"
@@ -117,7 +119,9 @@ const Questions = () => {
           </div>
         </div>
       </div>
-      <a href="#" className="btn btn-blue mt-5">More Info</a>
+      <a href="#" className="btn btn-blue mt-5">
+        More Info
+      </a>
     </div>
   );
 };

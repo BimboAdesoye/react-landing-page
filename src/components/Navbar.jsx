@@ -1,3 +1,4 @@
+import "../styles/Navbar.css";
 import logo from "../assets/logo-bookmark.svg";
 import hamburger from "../assets/icon-hamburger(1).svg";
 
@@ -10,7 +11,7 @@ const Navbar = () => {
       <div className="hamburger">
         <img className="burger" src={hamburger} alt="" />
       </div>
-      <ul className="">
+      <ul className="nav-list">
         <li>
           <a href="#">features</a>
         </li>

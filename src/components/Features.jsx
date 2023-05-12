@@ -1,4 +1,5 @@
 // import React from "react";
+import "../styles/Features.css";
 import picture from "../assets/illustration-features-tab-1.svg";
 
 const Features = () => {
@@ -14,16 +15,23 @@ const Features = () => {
       </div>
       <div className="our-features text-center">
         <hr />
-        <p className="first-feature"><a href="#">Simple Bookmarking</a></p>
+        <p className="first-feature">
+          <a href="#">Simple Bookmarking</a>
+        </p>
         <hr />
-        <p><a href="#">Speedy Searching</a></p>
+        <p>
+          <a href="#">Speedy Searching</a>
+        </p>
         <hr />
-        <p><a href="#">Easy Sharing</a></p>
+        <p>
+          <a href="#">Easy Sharing</a>
+        </p>
         <hr />
       </div>
       <div className="features-bookmark">
         <div className="features-bookmark-img">
           <img src={picture} alt="" />
+          <div className="features-background"></div>
         </div>
         <div className="features-bookmark-text">
           <h1>Bookmark in one click</h1>

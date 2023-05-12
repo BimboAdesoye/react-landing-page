@@ -1,0 +1,122 @@
+.our-features {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.our-features p a {
+  color: var(--very-dark-blue);
+}
+
+.our-features p a:hover {
+  color: var(--soft-red);
+}
+
+.our-features .first-feature {
+  font-weight: 500;
+}
+
+.our-features .first-feature::after {
+  width: 140px;
+  height: 5px;
+  background-color: var(--soft-red);
+  display: block;
+  content: "";
+  position: relative;
+  left: 28%;
+  top: 16px;
+}
+
+.features-bookmark {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.features-bookmark-img {
+  position: relative;
+}
+
+.features-bookmark img {
+  width: 100%;
+}
+
+.features-bookmark-text {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.features-background {
+  z-index: -1;
+  height: 230px;
+  /* width: 350px; */
+  width: 106.5%;
+  background-color: var(--soft-blue);
+  border-bottom-right-radius: 180px;
+  position: absolute;
+  top: 2rem;
+  right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .features-heading p {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  .our-features {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+
+  .our-features .first-feature::after {
+    left: 6%;
+  }
+
+  .features-bookmark {
+    flex-direction: row;
+    gap: 6rem;
+    justify-content: center;
+  }
+
+  .features-bookmark-img {
+    width: 50%;
+  }
+
+  .features-bookmark-text {
+    width: 40%;
+    text-align: left;
+    margin-top: 5rem;
+  }
+
+  .features-bookmark-text p {
+    max-width: 75%;
+  }
+
+  .features-bookmark-text button {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .features-background {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .features-background {
+    height: 300px;
+    top: 4rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .features-background {
+    height: 400px;
+    top: 5rem;
+    margin-left: 2rem;
+  }
+}

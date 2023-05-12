@@ -1,0 +1,23 @@
+.questions-heading {
+  margin-bottom: 2rem;
+}
+
+.accordion-item:last-of-type {
+  border-bottom: 1px solid var(--grayish-blue);
+}
+
+.acc-btn:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+@media screen and (min-width: 768px) {
+  .questions-heading p {
+    max-width: 450px;
+    margin: auto;
+  }
+
+  .accordion {
+    max-width: 650px;
+    margin: auto;
+  }
+}

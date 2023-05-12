@@ -1,0 +1,100 @@
+.main-picture {
+  width: 100%;
+  position: relative;
+}
+
+.main-picture .main-image {
+  width: 100%;
+  border: 10px solid var(--very-dark-blue);
+  border-radius: 18px;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.main-text {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.background {
+  z-index: -1;
+  height: 230px;
+  /* width: 350px; */
+  width: 106.5%;
+  background-color: var(--soft-blue);
+  border-bottom-left-radius: 180px;
+  position: absolute;
+  top: 2rem;
+  /* margin-left: ; */
+}
+
+.buttons {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-blue {
+  background-color: var(--soft-blue);
+  color: white;
+}
+
+.btn-white {
+  box-shadow: 10px 10px 15px 0px rgb(243, 239, 239);
+  color: var(--grayish-blue);
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    gap: 3rem;
+    flex-direction: row-reverse;
+  }
+
+  .main-picture {
+    width: 50%;
+  }
+
+  .main-text {
+    max-width: 40%;
+    text-align: left;
+  }
+
+  .buttons {
+    justify-content: flex-start;
+  }
+
+  .btn-blue:hover {
+    background-color: white;
+    border: 1px solid hsl(231, 69%, 60%);
+    color: var(--soft-blue);
+  }
+
+  .btn-white:hover {
+    border-color: var(--grayish-blue);
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .background {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .background {
+    height: 300px;
+    top: 4rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    height: 400px;
+    top: 5rem;
+    margin-left: 2rem;
+  }
+}

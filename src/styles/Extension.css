@@ -1,0 +1,61 @@
+.extension-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.extension-card {
+  box-shadow: 10px 10px 15px 0px rgb(243, 239, 239);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.extension-card .brand {
+  width: 100px;
+  margin-bottom: 2rem;
+}
+
+.extension-card p {
+  margin-bottom: 2rem;
+}
+
+.btn-accent {
+  padding: 0.5rem 3rem;
+  background-color: var(--soft-blue);
+  color: #fff;
+}
+
+.btn-accent:hover {
+  background-color: #fff;
+  border: 1px solid var(--soft-blue);
+  color: var(--soft-blue);
+}
+
+.extension-img {
+  width: 100%;
+}
+
+.extension-btn {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .extension-cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .extension-card {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .extension-heading p {
+    max-width: 500px;
+    margin: auto;
+  }
+}

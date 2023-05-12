@@ -1,4 +1,5 @@
 // import React from 'react'
+import "../styles/Extension.css";
 import Chrome from "../assets/logo-chrome.svg";
 import firefox from "../assets/logo-firefox.svg";
 import Opera from "../assets/logo-opera.svg";
