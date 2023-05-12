@@ -11,7 +11,7 @@ const Callout = () => {
     e.preventDefault();
     // if (email.length === 0) {
     //   setError(!error);
-    //   return <>{error && <p>Whoops, make sure it's an email.</p>}</>;
+    //   return <> {error && <p>Please fill the input field.</p>}</>;
     // }
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const isFormatValid = emailPattern.test(email);
@@ -43,7 +43,7 @@ const Callout = () => {
                 placeholder="Enter your email address"
                 // {...error && <img src={errorIcon}></img>}
               />
-              {error && <p>Please fill the input field.</p>}
+              {error && <p>Whoops, make sure it's an email.</p>}
             </div>
             <a onClick={handleSubmit} href="#" className="btn btn-red">
               Contact Us
