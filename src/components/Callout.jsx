@@ -1,7 +1,7 @@
 // import React from 'react'
 import { useState } from "react";
 import "../styles/Callout.css";
-import errorIcon from "../assets/icon-error.svg";
+// import errorIcon from "../assets/icon-error.svg";
 
 const Callout = () => {
   const [email, setEmail] = useState("");

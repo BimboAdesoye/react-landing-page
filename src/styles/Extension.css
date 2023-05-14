@@ -58,4 +58,14 @@
     max-width: 500px;
     margin: auto;
   }
+
+  .extension-cards .card-two {
+    position: relative;
+    top: 2rem;
+  }
+
+  .extension-cards .card-three {
+    position: relative;
+    top: 4rem;
+  }
 }

@@ -16,7 +16,7 @@ const Extension = () => {
         </p>
       </div>
       <div className="extension-cards">
-        <div className="extension-card">
+        <div className="extension-card card-one">
           <img className="brand" src={Chrome} alt="" />
           <div className="text-center">
             <h2>Add to Chrome</h2>
@@ -27,7 +27,7 @@ const Extension = () => {
             Add & Install Extension
           </a>
         </div>
-        <div className="extension-card">
+        <div className="extension-card card-two">
           <img className="brand" src={firefox} alt="" />
           <h2>Add to Chrome</h2>
           <p>Minimum version 55</p>
@@ -36,7 +36,7 @@ const Extension = () => {
             Add & Install Extension
           </a>
         </div>
-        <div className="extension-card">
+        <div className="extension-card card-three">
           <img className="brand" src={Opera} alt="" />
           <h2>Add to Chrome</h2>
           <p>Minimum version 46</p>
